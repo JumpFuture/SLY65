@@ -3344,7 +3344,7 @@
 			document.querySelectorAll('#assistModal .assist-transport-row').forEach(e => e.remove());
             document.querySelectorAll('#assistModal .assist-craft-row').forEach(e => e.remove());
 			for (let fleet of userFleets) addAssistInput(fleet);
-            for (let i=1; i < globalSettings.craftingJobs+1; i++) addCraftingInput(i);
+            for (let i=1; i < globalSettings.craftingJobs+10; i++) addCraftingInput(i);
 			targetElem.style.display = 'block';
 		} else {
 			targetElem.style.display = 'none';
